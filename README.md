@@ -1,6 +1,11 @@
 # fiberglass
 
-Docker-insulated image processing libraries for [Philomena](https://github.com/derpibooru/philomena)
+> [!WARNING]
+> This is a legacy project and won't receive any updates! It is provided as-is with intent to be used by Philomena versions 1.2 and older.
+>
+> It has been superceded by [mediaproc](https://github.com/philomena-dev/philomena/tree/master/native/philomena), whose production image you may find [here](https://github.com/philomena-dev/philomena/pkgs/container/mediaproc)
+
+Docker-insulated image processing libraries for [Philomena](https://github.com/philomena-dev/philomena)
 
 ## Rationale
 
@@ -28,3 +33,4 @@ Fiberglass also helps to minimize the available attack surface to RCE takeover, 
 - image-intensities
 - mediastat
 - safe-rsvg-convert
+- magick
